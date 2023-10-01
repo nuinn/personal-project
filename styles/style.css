@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+:root{--red: rgb(255,93,96);}
+:root{--lightblue: #A8D0E6;}
+:root{--blue: #374785;}
+:root{--darkblue: #24305E;}
+:root{--highlight: #F8E9A1;}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+}
+a{
+    all:unset;
+    cursor:pointer;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    height: 5vh;
+    width: 100%;
+    background-color: var(--red);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+
+}
+main{
+    padding: 50px 80px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* position: absolute; */
+    /* background-color: var(--lightblue); */
+    /* opacity: 0.3; */
+    z-index: 1;
+}
+main::before {
+        content: "";
+        /* background-image: url(../assets/images/Silencio.jpg); */
+        /* background-size: cover; */
+        background-color: var(--lightblue);
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        opacity: 0.3;
+}
+
+footer{
+    background-color: var(--darkblue);
+    height: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+h1{
+    font-size: 45.5px;
+    font-family: 'Righteous', cursive;
+    position: relative;
+}
+h5{
+    font-style: italic;
+    font-weight: 300;
+}
+p{
+    font-size: 18px;
+    text-align: justify;
+    margin-top: 16px;
+}
+
+.logo-container{
+    height: 100%;
+    width: 100%;
+}
+
+.logo{
+    height: 100%;
+}
+
+.links{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    font-weight: 300;
+    font-size: 22px;
+}
+
+/* .video-container{
+    position:fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+} */
+
+#background {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+.homebody{
+    display: flex;
+    justify-content: space-between;
+}
+.text-container{
+    width: 55%;
+    padding-right: 40px;
+}
+
+.text-container > p{
+    position: relative;
+    color: white;
+    font-size: 24px;
+}
+
+.homebody > img{
+    visibility: hidden;
+    width: 45%;
+    border-radius: 20px 60px;
+    opacity: 80%;
+    -webkit-box-shadow: 10px 10px 31px -12px rgba(0,0,0,0.55);
+-moz-box-shadow: 10px 10px 31px -12px rgba(0,0,0,0.55);
+box-shadow: 10px 10px 31px -12px rgba(0,0,0,0.55);
+}
