@@ -22,11 +22,10 @@
     </nav>
     <main>
         <h1>CONTACT</h1>
-
         <form>
-            <h2>Fill out this form so I can know more about you and your needs.</h2>
+            <h2>Fill out this form so I can know more about you and your needs:</h2>
             <div class="form">
-                <label for="name">My name is </label>
+                <label for="name">My name is</label>
                 <input type="text" name="name" id="name" placeholder="Full Name">
                 <label for="company">and I'm with</label>
                 <input type="text" name="company" id="company" placeholder="Name of Organisation">
@@ -282,23 +281,36 @@
                     <option value="Yemen">Yemen</option>
                     <option value="Zambia">Zambia</option>
                     <option value="Zimbabwe">Zimbabwe</option>
-                </select>
+                </select><span>.</span><br>
                 <label for="goals">I am in need of a partner to assist me with </label>
-                <input type="text" name="goals" id="goals" placeholder="A brief snapshot of my goals">
-                <label for="date">, with a goal of having completed on or near</label>
-                <input type="date" name="date" id="date">
+                <input type="text" name="goals" id="goals" placeholder="a brief snapshot of my goals"  autocomplete="off">
+                <span>,</span>
+                <label for="date">with a goal of having completed on or near</label>
+                <input type="date" name="date" id="date"><span>.</span><br>
                 <label for="budget">I am looking to stay within a budget of</label>
                 <input type="range" name="budget" id="budget" value="0" min="0" max="5000" step="100"
                     oninput="this.nextElementSibling.value = this.value">
-                <output></output><span>€.</span>
+                <output></output><span>€.</span><br>
                 <label for="email">You can reach me at</label>
-                <input type="email" name="email" id="email" placeholder="Email address">
-                <span>to get the conversation started. Thanks!</span>
+                <input type="email" name="email" id="email" placeholder="email address">
+                <span>to get the conversation started.</span>
+                <p>Thanks!</p>
             </div>
             <input type="submit" value="SEND">
         </form>
     </main>
-    <footer></footer>
+    <footer>
+        <h5>© MARC'D web designer 2023 — All Rights Reserved</h5>
+        <div class="social">
+            <a href="https://github.com/nuinn" target="_blank">
+                <img src="../assets/images/social/github.png" alt="">
+            </a>
+            <img src="../assets/images/social/linkedin.png" alt="">
+            <img src="../assets/images/social/discord.png" alt="">
+            <img src="../assets/images/social/twitterx.png" alt="">
+            <img src="../assets/images/social/facebook.png" alt="">
+        </div>
+    </footer>
 </body>
 
 </html>

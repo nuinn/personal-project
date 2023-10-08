@@ -30,6 +30,7 @@ h1{
     position: relative;
     color: var(--blue);
     font-weight: 200;
+    margin-bottom: 10px;
     
 }
 h2{
@@ -39,18 +40,12 @@ h2{
     font-weight: 100;
 }
 
-h5{
-    font-style: italic;
-    font-weight: 300;
-    font-size: 18px;
-}
+
 p{
     font-size: 18px;
-    text-align: justify;
+    text-align: center;
     margin-top: 16px;
 }
-
-
 nav{
     height: 7vh;
     width: 100%;
@@ -61,8 +56,27 @@ nav{
     align-items: center;
     position: fixed;
     z-index: 2;
-
 }
+.logo-container{
+    height: 100%;
+    width: 100%;
+}
+
+.logo{
+    height: 100%;
+}
+
+.links{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    font-weight: 300;
+    font-size: 26px;
+}
+.links > a:hover {
+    color: var(--highlight);
+}
+
 main{
     padding: 50px 80px;
     height: 100%;
@@ -91,8 +105,8 @@ form{
     z-index: 1;
     background-color: var(--blue);
     color: white;
-    width: 60vw;
-    padding: 30px;
+    width: 53vw;
+    padding: 40px 0px 30px;
     border-radius: 20px;
     opacity: 0.7;
     display: flex;
@@ -106,9 +120,9 @@ form{
 }
 
 .form  * {
-    font-size: 18px;
+    font-size: 20px;
     font-family: 'Lato';
-    margin: 8px 0px;
+    margin: 8px 2px;
     font-weight: 300;
     
 }
@@ -131,10 +145,10 @@ input, select, textarea{
 
 input::placeholder {
     font-weight: inherit;
-    font-size: 18px;
+    font-size: 20px;
     /* opacity: 0.5; */
     color: inherit;
-  }
+  }  
 
 input:hover, select:hover{
     color: var(--highlight);
@@ -149,7 +163,7 @@ input[type="range"] {
     width: 12rem;
     border: none;
     height: inherit;
-    padding-bottom: 6px;
+    padding: 8px;
   }
 
   input[type="range"]::-webkit-slider-runnable-track {
@@ -178,10 +192,27 @@ input[type="range"] {
   } */
 
 input[type="submit"]{
-    border: 1px solid var(--red);
-    color: var(--red);
+    border: 1px solid var(--lightblue);
+    color: var(--lightblue);
     opacity: 1;
-    margin-top: 30px;
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+/* #name{
+    width: 200px;
+} */
+#company{
+    width: 250px;
+}
+#goals{
+    width: 280px;
+}
+#budget{
+    margin-top: 14px;
+}
+#email{
+    margin: 16px 0px;
 }
 
 footer{
@@ -189,155 +220,30 @@ footer{
     height: 5.5vh;
     color: white;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1;
-}
-
-.logo-container{
-    height: 100%;
-    width: 100%;
-}
-
-.logo{
-    height: 100%;
-}
-
-.links{
-    width: 70%;
-    display: flex;
-    justify-content: space-around;
-    font-weight: 300;
-    font-size: 26px;
-}
-.links > a:hover {
-    color: var(--highlight);
-}
-
-.homebody{
-    display: flex;
     justify-content: space-between;
-}
-.text-container{
-    width: 60%;
-    padding-right: 40px;
-}
-
-.text-container > p{
-    position: relative;
-    color: white;
-    font-size: 24px;
-}
-
-.homebody > img{
-    /* visibility: hidden; */
-    width: 40%;
-    height: auto;
-    /* border-radius: 20px; */
+    align-items: center;
     z-index: 1;
-    object-fit: cover;
-
-    /* -webkit-box-shadow: 10px 10px 31px -12px rgba(0,0,0,0.55);
-    -moz-box-shadow: 10px 10px 31px -12px rgba(0,0,0,0.55);
-    box-shadow: 10px 10px 31px -12px rgba(0,0,0,0.55); */
+    padding: 0px 20px;
 }
-
-
-
-/*
-#background {
-    position: fixed;
-    top: -19vh;
-    left: 0;
-    bottom:0%;
-    min-width: 100%;
-    min-height: 90%;
-    opacity: 0.8;
-    z-index: -1;
-    overflow-x: hidden;
-} */
-
-
-/*
-.text-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.text-container > div{
-    position: absolute;
-}
-
-.text1, .text2, .text3, .text4{
-    color: white;
+h5{
+    /* font-style: italic; */
     font-weight: 300;
-    font-size: 120px;
-    z-index: 2;
+    font-size: 16px;
+}
+.social{
+    height:100%;
+    max-height: 5.5vh;
     display: flex;
-    flex-direction: column;
+    gap: 20px;
     align-items: center;
-    line-height: 95%;
+}
+.social > a{
+    height: 100%;
+    display: flex;
 }
 
-.text1 :last-child, .text2 :last-child, .text3 :last-child{
-    color: var(--darkblue)
+.social img{
+    height: 60%;
+    align-self: center;
 }
-
-
-.text1{
-    animation: textappear1 20s infinite;
-}
-.text2{
-    animation: textappear2 20s infinite;
-}
-.text3{
-    animation: textappear3 20s infinite;
-}
-.text4{
-    animation: textappear4 20s infinite;
-    font-weight: 100;
-    color: var(--highlight);
-}
-
-
-
-@keyframes textappear1 {
-    0% {opacity: 0;}
-    20% {opacity: 0.8;}
-    40% {opacity: 0;}
-    60% {opacity: 0;}
-    80%  {opacity: 0;}
-    100%  {opacity: 0;}
-}
-
-@keyframes textappear2 {
-    0% {opacity: 0;}
-    20% {opacity: 0;}
-    40% {opacity: 0.8;}
-    60% {opacity: 0;}
-    80%  {opacity: 0;}
-    100%  {opacity: 0;}
-}
-
-@keyframes textappear3 {
-    0% {opacity: 0;}
-    20% {opacity: 0;}
-    40% {opacity: 0;}
-    60% {opacity: 0.8;}
-    80%  {opacity: 0;}
-    100%  {opacity: 0;}
-}
-
-@keyframes textappear4 {
-    0% {opacity: 0;}
-    20% {opacity: 0;}
-    40% {opacity: 0;}
-    60% {opacity: 0;}
-    80%  {opacity: 0.8;}
-    100%  {opacity: 0;}
-} */
-
-
-
 

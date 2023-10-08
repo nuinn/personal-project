@@ -87,11 +87,15 @@ h5{
     gap: 20px;
     align-items: center;
 }
-.social > img{
+.social > a{
+    height: 100%;
+    display: flex;
+}
+
+.social img{
     height: 60%;
     align-self: center;
 }
-
 
 p{
     font-size: 18px;
@@ -143,12 +147,6 @@ p{
     overflow-x: hidden;
 }
 
-/* .whitespace{
-    background-color: black;
-    z-index: 3;
-    min-height: 20vh;
-} */
-
 .text-container{
     display: flex;
     justify-content: center;
@@ -174,7 +172,6 @@ p{
     color: var(--darkblue)
 }
 
-
 .text1{
     animation: textappear1 20s infinite;
 }
@@ -190,68 +187,50 @@ p{
     color: var(--lightblue);
 }
 
-
-
 @keyframes textappear1 {
     0% {opacity: 0;}
-    20% {opacity: 0.8;}
-    40% {opacity: 0;}
-    60% {opacity: 0;}
-    80%  {opacity: 0;}
+    12% {opacity: 0.8;}
+    25% {opacity: 0;}
+    37% {opacity: 0;}
+    50%  {opacity: 0;}
+    62%  {opacity: 0;}
+    75%  {opacity: 0;}
+    87%  {opacity: 0;}
     100%  {opacity: 0;}
 }
 
 @keyframes textappear2 {
     0% {opacity: 0;}
-    20% {opacity: 0;}
-    40% {opacity: 0.8;}
-    60% {opacity: 0;}
-    80%  {opacity: 0;}
+    12% {opacity: 0;}
+    25% {opacity: 0;}
+    37% {opacity: 0.8;}
+    50%  {opacity: 0;}
+    62%  {opacity: 0;}
+    75%  {opacity: 0;}
+    87%  {opacity: 0;}
     100%  {opacity: 0;}
 }
 
 @keyframes textappear3 {
     0% {opacity: 0;}
-    20% {opacity: 0;}
-    40% {opacity: 0;}
-    60% {opacity: 0.8;}
-    80%  {opacity: 0;}
+    12% {opacity: 0;}
+    25% {opacity: 0;}
+    37% {opacity: 0;}
+    50%  {opacity: 0;}
+    62%  {opacity: 0.8;}
+    75%  {opacity: 0;}
+    87%  {opacity: 0;}
     100%  {opacity: 0;}
 }
 
 @keyframes textappear4 {
     0% {opacity: 0;}
-    20% {opacity: 0;}
-    40% {opacity: 0;}
-    60% {opacity: 0;}
-    80%  {opacity: 0.8;}
+    12% {opacity: 0;}
+    25% {opacity: 0;}
+    37% {opacity: 0;}
+    50%  {opacity: 0;}
+    62%  {opacity: 0;}
+    75%  {opacity: 0;}
+    80%  {opacity: 1;}
     100%  {opacity: 0;}
 }
-
-
-
-
-/* .homebody{
-    display: flex;
-    justify-content: space-between;
-}
-.text-container{
-    width: 55%;
-    padding-right: 40px;
-}
-
-.text-container > p{
-    position: relative;
-    color: white;
-    font-size: 24px;
-}
-
-.homebody > img{
-    visibility: hidden;
-    width: 45%;
-    border-radius: 20px 60px;
-    opacity: 80%;
-    -webkit-box-shadow: 10px 10px 31px -12px rgba(0,0,0,0.55);
--moz-box-shadow: 10px 10px 31px -12px rgba(0,0,0,0.55);
-box-shadow: 10px 10px 31px -12px rgba(0,0,0,0.55);
-} */
