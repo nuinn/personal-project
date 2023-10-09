@@ -1,32 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
-:root{--red: rgb(255,93,96);}
-:root{--lightblue: #A8D0E6;}
-:root{--blue: #374785;}
-:root{--darkblue: #24305E;}
-:root{--highlight: #F8E9A1;}
-*{
+:root {
+    --red: rgb(255, 93, 96);
+}
+
+:root {
+    --lightblue: #A8D0E6;
+}
+
+:root {
+    --blue: #374785;
+}
+
+:root {
+    --darkblue: #24305E;
+}
+
+:root {
+    --highlight: #F8E9A1;
+}
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
     font-family: 'Lato', sans-serif;
 }
-a{
-    all:unset;
-    cursor:pointer;
+
+a {
+    all: unset;
+    cursor: pointer;
 }
 
-body{
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    max-height: 100vh;
-    /* overflow-x: hidden; */
-}
-
-nav{
+nav {
     height: 7vh;
     width: 100%;
     background-color: var(--red);
@@ -36,221 +44,141 @@ nav{
     align-items: center;
     position: fixed;
     z-index: 2;
-
 }
-main{
-    padding: 50px 80px;
-    height: 100%;
+
+/* body{
+    height: 100vh;
     display: flex;
     flex-direction: column;
+} */
+main {
+    width: 100%;
+    height: 87.5vh;
+    top: 7vh;
+    padding-top: 7vh;
+    bottom: 5.5vh;
+    /* padding: 50px 80px;
+    height: 100%;
+    display: flex;
     justify-content: center;
-    /* position: absolute; */
+    position: absolute;
     /* background-color: var(--lightblue); */
     /* opacity: 0.3; */
-    z-index: 1;
-}
-main::before {
-        content: "";
-        background-image: url(https://live.staticflickr.com/4094/4964497501_2e950a1387_b.jpg);
-        background-size: cover;
-        background-color: var(--lightblue);
-        position: absolute;
-        top: 0px;
-        right: 0px;
-        bottom: 0px;
-        left: 0px;
-        opacity: 0.2;
+    /* z-index: 1; */
 }
 
-footer{
-    background-color: var(--darkblue);
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     height: 5.5vh;
+    background-color: var(--darkblue);
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 1;
     padding: 0px 20px;
+    z-index: 1;
 }
-h5{
+
+h5 {
     /* font-style: italic; */
     font-weight: 300;
     font-size: 16px;
 }
-.social{
-    height:100%;
+
+.social {
+    height: 100%;
     max-height: 5.5vh;
     display: flex;
     gap: 20px;
     align-items: center;
 }
-.social > a{
+
+.social>a {
     height: 100%;
     display: flex;
 }
 
-.social img{
+.social img {
     height: 60%;
     align-self: center;
 }
 
-h1{
-    font-size: 45.5px;
-    font-family: 'Righteous', cursive;
-    position: relative;
-    color: var(--blue)
+h1 {
+    font-size: 52px;
+    font-weight: 100;
+    color: var(--darkblue);
 }
 
-p{
+p {
     font-size: 18px;
     text-align: justify;
     margin-top: 16px;
+    position: relative;
+    color: var(--blue);
+    font-size: 20px;
+    font-weight: 300;
 }
 
-.logo-container{
+.logo-container {
     height: 100%;
     width: 100%;
 }
 
-.logo{
+.logo {
     height: 100%;
 }
 
-.links{
+.links {
     width: 70%;
     display: flex;
     justify-content: space-around;
     font-weight: 300;
     font-size: 26px;
 }
-.links > a:hover {
+
+.links>a:hover {
     color: var(--highlight);
 }
 
-.homebody{
+.homebody {
+    width: 100%;
+    height: 87.5vh;
     display: flex;
     justify-content: space-between;
-}
-.text-container{
-    width: 60%;
-    padding-right: 40px;
-}
-
-.text-container > p{
-    position: relative;
-    color: white;
-    font-size: 24px;
-}
-
-.homebody > img{
-    /* visibility: hidden; */
-    width: 40%;
-    height: auto;
-    /* border-radius: 20px; */
-    z-index: 1;
-    object-fit: cover;
-
-    /* -webkit-box-shadow: 10px 10px 31px -12px rgba(0,0,0,0.55);
-    -moz-box-shadow: 10px 10px 31px -12px rgba(0,0,0,0.55);
-    box-shadow: 10px 10px 31px -12px rgba(0,0,0,0.55); */
-}
-
-
-
-/*
-#background {
-    position: fixed;
-    top: -19vh;
-    left: 0;
-    bottom:0%;
-    min-width: 100%;
-    min-height: 90%;
-    opacity: 0.8;
-    z-index: -1;
-    overflow-x: hidden;
-} */
-
-
-/*
-.text-container{
-    display: flex;
-    justify-content: center;
     align-items: center;
+    gap: 50px;
+    padding: 50px;
 }
 
-.text-container > div{
+.homebody::before {
+    content: "";
+    background-image: url(https://cdn.pixabay.com/photo/2015/01/26/17/29/wall-612926_1280.jpg);
+    background-size: cover;
     position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.2;
 }
 
-.text1, .text2, .text3, .text4{
-    color: white;
-    font-weight: 300;
-    font-size: 120px;
-    z-index: 2;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    line-height: 95%;
-}
-
-.text1 :last-child, .text2 :last-child, .text3 :last-child{
-    color: var(--darkblue)
+.text-container {
+    width: 100%;
+    height: 100%;
 }
 
 
-.text1{
-    animation: textappear1 20s infinite;
+.homebody>img {
+    width: 80%;
+    height: 80%;
+    border: 1px solid var(--darkblue);
+    border-radius: 50px;
+    z-index: 1;
+    
+    box-shadow: 24px 23px 33px -16px rgba(0,0,0,0.16);
+-webkit-box-shadow: 24px 23px 33px -16px rgba(0,0,0,0.16);
+-moz-box-shadow: 24px 23px 33px -16px rgba(0,0,0,0.16);
 }
-.text2{
-    animation: textappear2 20s infinite;
-}
-.text3{
-    animation: textappear3 20s infinite;
-}
-.text4{
-    animation: textappear4 20s infinite;
-    font-weight: 100;
-    color: var(--highlight);
-}
-
-
-
-@keyframes textappear1 {
-    0% {opacity: 0;}
-    20% {opacity: 0.8;}
-    40% {opacity: 0;}
-    60% {opacity: 0;}
-    80%  {opacity: 0;}
-    100%  {opacity: 0;}
-}
-
-@keyframes textappear2 {
-    0% {opacity: 0;}
-    20% {opacity: 0;}
-    40% {opacity: 0.8;}
-    60% {opacity: 0;}
-    80%  {opacity: 0;}
-    100%  {opacity: 0;}
-}
-
-@keyframes textappear3 {
-    0% {opacity: 0;}
-    20% {opacity: 0;}
-    40% {opacity: 0;}
-    60% {opacity: 0.8;}
-    80%  {opacity: 0;}
-    100%  {opacity: 0;}
-}
-
-@keyframes textappear4 {
-    0% {opacity: 0;}
-    20% {opacity: 0;}
-    40% {opacity: 0;}
-    60% {opacity: 0;}
-    80%  {opacity: 0.8;}
-    100%  {opacity: 0;}
-} */
-
-
-
-
