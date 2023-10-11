@@ -49,7 +49,7 @@ In order to appreciate the inner workings of the project, I recommend installing
 Click the following link to view the website online:
 ```sh
     https://nuinn.github.io/personal-project/index.html
-    ```
+```
 
 ## License
 
