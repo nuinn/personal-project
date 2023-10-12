@@ -1,4 +1,4 @@
-# The Bridge RAMP-UP Project<br>Combining HTML5 and CSS3<br>Marc Dilley.
+<h1 align="center">The Bridge RAMP-UP Project<br>Combining HTML5 and CSS3<br>Marc Dilley.<h1>
 
 <h3 align="center">A Personal Website</h3>
 
