@@ -49,29 +49,31 @@ In order to appreciate the inner workings of the project, I recommend installing
 ### Viewing the website without installation
 
 Click the following link to view the website online:
-  https://nuinn.github.io/personal-project/index.html
+    ```sh
+    https://nuinn.github.io/personal-project/index.html
+    ```
 
 ## License
 
 This project is under license of Marc Dilley.
 
-## Project's review and GIFS
+## Project Preview
 
-Here we can see with our gifs, how we did it, and how do they work.
+Here are some GIFs and screenshots of the website to show the functionality and general layout.
 
 ![foto](./assets/screengrabs/home.gif)
 ![foto](./assets/screengrabs/projects.gif)
 ![foto](./assets/screengrabs/Biography.png)
-![foto](./assets/screengrabs/Contact.png
+![foto](./assets/screengrabs/Contact.png)
 
 
 ## Contact 
 
 
 <p align="center" >You can ask me anything here</p>
-<p align="center" >Daniel Miguelez</p>
+<p align="center" >Marc Dilley</p>
 </br>
 <p align="center">
-<a href = "mailto:danielmiguelez1993@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
-    <a href="https://www.linkedin.com/in/daniel-miguelez-poblador/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+<a href = "mailto:marcdilley@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+    <a href="https://www.linkedin.com/in/marc-dilley-288407a1/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
 </p>
