@@ -1,13 +1,15 @@
-# The Bridge RAMP-UP Project combining HTML5 and CSS3 - by Marc Dilley.
+# The Bridge RAMP-UP Project
+# Combining HTML5 and CSS3
+# Marc Dilley.
 
 <h3 align="center">A Personal Website</h3>
 
 <p align="center">For this project, I decided to create a mock-up of a website which advertises my services as a web developer in the form of a brand.</p>
 
-## Goals of this project
+## Project Goals
 
 <ol>
-  <li>To learn and put into practice various elements of HTML that might typically be used in a website of this nature.
+  <li>To employ a variety of HTML elements that might typically be used in a website of this nature.
   <li>To style these elements in a way that is attractive, modern and professional—in the process causing me to research a variety of methods to achieve said goal.
   <li>To showcase my abilities as a web designer in order to comply with the aim of creating a brand that might attract clients.
 </ol>
@@ -47,23 +49,20 @@ In order to appreciate the inner workings of the project, I recommend installing
 ### Viewing the website without installation
 
 Click the following link to view the website online:
-```sh
-    https://nuinn.github.io/personal-project/index.html
-```
+  https://nuinn.github.io/personal-project/index.html
 
 ## License
 
-This project is under license of Daniel Miguélez and the students of The bridge.
+This project is under license of Marc Dilley.
 
 ## Project's review and GIFS
 
 Here we can see with our gifs, how we did it, and how do they work.
 
-![foto](imagenes/11.png)
-![foto](imagenes/image.png)
-![foto](imagenes/Sin%20t%C3%ADtulo.png)
-![foto](imagenes/0bb8e699-65bd-4363-9726-ef9969ee590a.gif)
-![foto](imagenes/b99ca55e-feb6-43e8-ad16-d983329476f3.gif)
+![foto](./assets/screengrabs/home.gif)
+![foto](./assets/screengrabs/projects.gif)
+![foto](./assets/screengrabs/Biography.png)
+![foto](./assets/screengrabs/Contact.png
 
 
 ## Contact 

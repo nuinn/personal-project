@@ -27,7 +27,7 @@ body{
     flex-direction: column;
     max-height: 100vh;
     overflow-x: hidden;
-    
+
 }
 nav{
     height: 7vh;
@@ -47,15 +47,10 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* position: absolute; */
-    /* background-color: var(--lightblue); */
-    /* opacity: 0.3; */
     z-index: 1;
 }
 main::before {
         content: "";
-        /* background-image: url(../assets/images/Silencio.jpg); */
-        /* background-size: cover; */
         background-color: var(--lightblue);
         position: absolute;
         top: 0px;
@@ -120,7 +115,7 @@ p{
     font-size: 26px;
 }
 .links > a:hover {
-    color: var(--highlight); 
+    color: var(--highlight);
 }
 
 /* .video-container{
@@ -137,12 +132,12 @@ p{
 
 #background {
     position: fixed;
-    top: -19vh;
+    top: -20vh;
     left: 0;
     bottom:0%;
     min-width: 100%;
-    min-height: 90%;
-    opacity: 0.8;
+    min-height: 100%;
+    /* opacity: 0.8; */
     z-index: -1;
     overflow-x: hidden;
 }

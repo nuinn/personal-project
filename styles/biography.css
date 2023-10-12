@@ -157,6 +157,7 @@ p {
     content: "";
     background-image: url(https://cdn.pixabay.com/photo/2015/01/26/17/29/wall-612926_1280.jpg);
     background-size: cover;
+    /* background-color: var(--lightblue); */
     position: absolute;
     top: 0px;
     right: 0px;
