@@ -1,6 +1,4 @@
-# The Bridge RAMP-UP Project
-# Combining HTML5 and CSS3
-# Marc Dilley.
+# The Bridge RAMP-UP Project<br>Combining HTML5 and CSS3<br>Marc Dilley.
 
 <h3 align="center">A Personal Website</h3>
 
@@ -46,7 +44,7 @@ In order to appreciate the inner workings of the project, I recommend installing
 2. Open the project locally to explore the various files.
 3. Open HTML files in a web browser to view the website.
 
-### Viewing the website without installation
+### Viewing the website without installation https://nuinn.github.io/personal-project/index.html
 
 Click the following link to view the website online:
     ```sh
